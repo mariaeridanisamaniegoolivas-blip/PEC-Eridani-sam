@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff4fa;
+    color: #333;
+}
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #e58bb9, #9d7bd4);
+    color: white;
+    padding: 40px;
+}
+header h1 {
+    font-size: 36px;
+}
+nav {
+    background-color: #7655ad;
+    text-align: center;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffd8ec;
+}
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #ddd;
+}
+h2 {
+    color: #7655ad;
+}
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.tarjeta {
+    background-color: #f4edff;
+    padding: 20px;
+    border-radius: 12px;
+}
+.tarjeta h3 {
+    color: #7655ad;
+}
+button {
+    margin-top: 25px;
+    background-color: #d77eac;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #bd6792;
+}
+#consejo {
+    color: #7655ad;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: #7655ad;
+    color: white;
+    padding: 20px;
+}
